@@ -1,0 +1,406 @@
+body {
+  max-width: 1400px;
+  width: 100%;
+  max-height: 3800px;
+  padding: 20px;
+  padding-top: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Comforter", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1400px;
+  min-height: 80px;
+  padding-bottom: 25px;
+}
+
+.menu-logo {
+  display: flex;
+  width: 175px;
+  height: 30px;
+}
+
+.logopic {
+  display: flex;
+  align-items: center;
+}
+
+.logotext {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  transform: translateX(50px);
+  list-style: none;
+  max-width: 350px;
+  width: 100%;
+  min-height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.menu-link {
+  display: flex;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 30px;
+}
+
+.button-signin {
+  border: solid 1px #bcd0e5;
+  border-radius: 4px;
+  color: #173a56;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  right: 291px;
+  width: 102px;
+  height: 46px;
+}
+
+.button-signup {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #ff9900;
+  color: white;
+  width: 110px;
+  height: 46px;
+}
+
+.section {
+  display: flex;
+  max-width: 1126px;
+  width: 100%;
+  min-height: 496px;
+}
+
+.section1 {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.section1-card {
+  max-width: 518px;
+  width: 100%;
+  min-height: 331px;
+}
+
+.headline {
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.section1-text {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.section1-button {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.getstarted {
+  background-color: #ff9900;
+  width: 175px;
+  height: 53px;
+  border-radius: 4px;
+  color: white;
+}
+
+.watch {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 14px;
+  height: 23px;
+  border: none;
+  color: #ff9900;
+  background-color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.playtext {
+  margin-left: 10px;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 2211px;
+  width: 100%;
+  min-height: 543px;
+  padding-bottom: 30px;
+}
+
+.section2-headline {
+  text-align: center;
+  max-width: 539px;
+  width: 100%;
+  min-height: 138px;
+  font-size: 36px;
+}
+
+.section2-card {
+  max-width: 1095px;
+  width: 100%;
+  min-height: 205px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 240px;
+  height: 178px;
+}
+
+.box2 {
+  width: 240px;
+  height: 178px;
+}
+
+.box3 {
+  width: 240px;
+  height: 178px;
+}
+
+.box4 {
+  width: 240px;
+  height: 204px;
+}
+
+.box-headline {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.box-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section2-button {
+  display: flex;
+  align-self: center;
+  transform: translateY(30px);
+}
+
+.signupnow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 53px;
+  background: #ff9900;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.infosection {
+  display: flex;
+  justify-content: center;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 600px;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+
+.infosection {
+  min-height: 574px;
+}
+
+.infosection-card {
+  max-width: 486px;
+  width: 100%;
+  min-height: 531px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.infosection-text {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.infosection-headline {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.infosection-headlinesmall {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.infosection1-image {
+  max-width: 520px;
+  width: 100%;
+  min-height: 574px;
+}
+
+.infosection2 {
+  bottom: 1162px;
+  left: 144px;
+  max-width: 1121px;
+  width: 100%;
+  min-height: 521px;
+}
+
+.infosection2-image {
+  max-width: 533px;
+  width: 100%;
+  min-height: 520px;
+}
+
+.infosection-card2 {
+  max-width: 486px;
+  width: 100%;
+  min-height: 427px;
+  margin: 20px;
+}
+
+.checkmark {
+  transform: translateY(50px);
+}
+
+.checkmarktext {
+  transform: translateX(50px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infosection3 {
+  max-width: 1110px;
+  width: 100%;
+  min-height: 609px;
+}
+
+.infosection-card3 {
+  max-width: 486px;
+  width: 100%;
+  min-height: 531px;
+  transform: translateY(30px);
+  margin: 20px;
+}
+.linebreak {
+  position: absolute;
+  width: 1109px;
+  height: 1px;
+  left: 160px;
+  top: 3452px;
+  background: rgba(188, 208, 229, 0.496913);
+}
+
+footer {
+  max-width: 1400px;
+  width: 100%;
+  min-height: 308px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+}
+
+.footer-menu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 35px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 118px;
+  height: 205px;
+}
+
+.footer-list2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 141px;
+  height: 205px;
+}
+
+.membership {
+  max-width: 325px;
+  width: 100%;
+  min-height: 109px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.membership-button {
+  background-color: #ff9900;
+  color: white;
+  width: 131px;
+  height: 39px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 10px;
+}
+
+.membership-input {
+  padding: 10px;
+  border-color: #bcd0e5;
+  max-width: 325px;
+  width: 100%;
+  min-height: 50px;
+}
